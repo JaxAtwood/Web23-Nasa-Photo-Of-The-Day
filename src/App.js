@@ -1,17 +1,22 @@
 import React from "react";
 import Grid from "./Components/Grid";
+import { Button } from "./Components/Styles";
+
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    // <Styles>
+    <Button className="App">
       <Grid />
       <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
+        Come back daily for a new image 🚀!
       </p>
-    </div>
+    </Button>
+    // </Styles>
   );
 }
 
 export default App;
+
+
