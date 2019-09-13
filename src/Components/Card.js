@@ -6,9 +6,10 @@ const Card = props => {
     <div className="navBar" key={props.id}> 
         <ImageStyling className="nasa-img" alt="dailyphoto" src={props.url}/>
         <h4> Today's Image is Called:</h4>
-        <h3>{props.title}</h3>
-        <h4>Description:</h4>
-        <h5>{props.explanation}</h5>
+        <h2>{props.title}</h2>
+        <h3>Taken by: {props.copyright}</h3>
+        <hr></hr>
+        <h3>{props.explanation}</h3>
     </div>
     );
 };

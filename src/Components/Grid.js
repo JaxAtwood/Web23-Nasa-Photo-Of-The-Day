@@ -33,6 +33,7 @@ const Grid = () => {
                     id={nasaInfo.id}
                     url={nasaInfo.url}
                     title={nasaInfo.title}
+                    copyright={nasaInfo.copyright}
                     explanation={nasaInfo.explanation}
                 />
             </Box>

@@ -1,7 +1,7 @@
 // import React from "react";
 import styled from "styled-components";
 
-const Button = styled.body`
+const IntoApp = styled.body`
 background: linear-gradient(to bottom, hotpink, #5DC6EB);
 padding: 30px;
 display: flex; //display flex got rid of the white space at the top
@@ -30,5 +30,9 @@ const ImageStyling = styled.img`
 width: 80%;
 padding: 20px;
 `
+const TextFont = styled.h1 `
+font-family: 'Chilanka', cursive;
+font-size: 1rem;
+`
 
-export { Button, Box, ImageStyling, Navvy };
+export { IntoApp, Box, ImageStyling, Navvy, TextFont };

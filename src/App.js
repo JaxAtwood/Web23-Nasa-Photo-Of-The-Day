@@ -1,19 +1,19 @@
 import React from "react";
 import Grid from "./Components/Grid";
-import { Button } from "./Components/Styles";
+import { IntoApp, TextFont } from "./Components/Styles";
 
 import "./App.css";
 
 function App() {
   return (
-    // <Styles>
-    <Button className="App">
+    <IntoApp className="App">
+      <TextFont>
       <Grid />
-      <p>
+      <h1>
         Come back daily for a new image 🚀!
-      </p>
-    </Button>
-    // </Styles>
+      </h1>
+      </TextFont>
+    </IntoApp>
   );
 }
 
